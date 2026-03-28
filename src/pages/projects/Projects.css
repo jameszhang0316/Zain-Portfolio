@@ -75,6 +75,21 @@
   margin-top: 60px;
 }
 
+.projects-proof-section {
+  margin: 3rem auto 2rem;
+  padding: 0 40px;
+  max-width: 1100px;
+}
+
+.projects-proof-image {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 8px 24px;
+}
+
 @media (max-width: 1380px) {
   .projects-heading-text {
     font-size: 50px;

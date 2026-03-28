@@ -1,0 +1,240 @@
+{
+  "data": [
+    {
+      "id": "proj-robinhood",
+      "category": "C# Desktop",
+      "name": "robinhood-options-trading-bot",
+      "dateRange": "2025/11 – 2026/01",
+      "clientRequest": "We need a high-performance trading system that can process signals, execute trades, and notify users in real time.",
+      "workDone": [
+        "Built trading automation system",
+        "Integrated Schwab API",
+        "Designed event-driven architecture",
+        "Implemented messaging via RabbitMQ",
+        "Added Telegram/Discord notifications"
+      ],
+      "tech": [
+        "C#",
+        ".NET",
+        "RabbitMQ"
+      ]
+    },
+    {
+      "id": "proj-medical-rag",
+      "category": "AI RAG",
+      "name": "multi_agent_medical_assistant",
+      "dateRange": "2025/08 – 2025/10",
+      "clientRequest": "We are building a medical assistant tool that can answer complex healthcare-related questions using internal documents and structured reasoning. The system must support multi-step reasoning and ensure accurate, explainable responses.",
+      "workDone": [
+        "Designed multi-agent architecture for task decomposition",
+        "Built RAG pipeline (chunking, embedding, retrieval)",
+        "Integrated knowledge base for medical data",
+        "Implemented reasoning flow for improved answer accuracy",
+        "Added structured response validation"
+      ],
+      "tech": [
+        "Python",
+        "LangChain",
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "proj-email-assistant-sales",
+      "category": "AI Agents",
+      "name": "AI Email Assistant for Sales Team",
+      "dateRange": "2025/06 – 2025/07",
+      "clientRequest": "AI should reply to emails and categorize leads.",
+      "workDone": [
+        "Built email classification agent",
+        "Auto-reply generation",
+        "CRM tagging",
+        "Priority scoring"
+      ],
+      "tech": [
+        "Python",
+        "OpenAI",
+        "Gmail API"
+      ]
+    },
+    {
+      "id": "proj-slack-report-n8n",
+      "category": "n8n",
+      "name": "automatic-daily-work-report-on-Slack-using-AI",
+      "dateRange": "2025/04 – 2025/05",
+      "clientRequest": "Our team spends time compiling daily reports. We want to automate report generation and delivery to Slack.",
+      "workDone": [
+        "Built AI-based summarization system",
+        "Aggregated activity data",
+        "Generated structured reports",
+        "Automated Slack delivery"
+      ],
+      "tech": [
+        "Python",
+        "OpenAI",
+        "Slack API",
+        "n8n"
+      ]
+    },
+    {
+      "id": "proj-email-n8n",
+      "category": "n8n",
+      "name": "email-automation-via-n8n",
+      "dateRange": "2025/03 – 2025/04",
+      "clientRequest": "We need to automate email processing, extract key information, and trigger follow-up workflows without manual intervention.",
+      "workDone": [
+        "Built automation workflows using n8n",
+        "Parsed incoming emails",
+        "Triggered downstream actions",
+        "Integrated notification system"
+      ],
+      "tech": [
+        "n8n",
+        "API integrations"
+      ]
+    },
+    {
+      "id": "proj-simpleflow",
+      "category": "Make.com",
+      "name": "simpleflow",
+      "dateRange": "2024/11 – 2025/01",
+      "clientRequest": "We need a lightweight automation system to connect multiple services and streamline repetitive workflows.",
+      "workDone": [
+        "Built automation scenarios",
+        "Integrated multiple APIs",
+        "Implemented workflow logic",
+        "Optimized execution flow"
+      ],
+      "tech": [
+        "Make.com",
+        "APIs"
+      ]
+    },
+    {
+      "id": "proj-appointment",
+      "category": "Make.com",
+      "name": "appointment-scheduler",
+      "dateRange": "2024/08 – 2024/10",
+      "clientRequest": "We want to automate appointment booking, reminders, and scheduling workflows.",
+      "workDone": [
+        "Built scheduling automation system",
+        "Implemented reminders and notifications",
+        "Integrated calendar APIs",
+        "Automated booking flow"
+      ],
+      "tech": [
+        "Make.com",
+        "APIs"
+      ]
+    },
+    {
+      "id": "proj-process-killer",
+      "category": "Python",
+      "name": "Python-process-killer",
+      "dateRange": "2024/08 – 2024/09",
+      "clientRequest": "We need a tool to monitor and terminate problematic processes automatically.",
+      "workDone": [
+        "Built process monitoring tool",
+        "Implemented automated termination logic",
+        "Logged system activity"
+      ],
+      "tech": [
+        "Python"
+      ]
+    },
+    {
+      "id": "proj-bep20-check",
+      "category": "Python",
+      "name": "bep20-transactions-check",
+      "dateRange": "2024/07 – 2024/08",
+      "clientRequest": "We need to analyze blockchain transactions and detect anomalies.",
+      "workDone": [
+        "Built transaction parser",
+        "Processed blockchain data",
+        "Generated analysis reports"
+      ],
+      "tech": [
+        "Python"
+      ]
+    },
+    {
+      "id": "proj-wallet-safety",
+      "category": "Python",
+      "name": "BEP20-wallet-safety-checker",
+      "dateRange": "2024/06 – 2024/07",
+      "clientRequest": "We want to evaluate wallet safety before transactions.",
+      "workDone": [
+        "Built wallet analysis system",
+        "Implemented risk scoring",
+        "Integrated blockchain data"
+      ],
+      "tech": [
+        "Python"
+      ]
+    },
+    {
+      "id": "proj-chatbot-saas",
+      "category": "AI chatbot",
+      "name": "Customer Support Chatbot for SaaS",
+      "dateRange": "2024/06 – 2024/07",
+      "clientRequest": "Build chatbot to answer user questions.",
+      "workDone": [
+        "Integrated RAG system",
+        "Connected to website",
+        "Added fallback to human support"
+      ],
+      "tech": [
+        "Next.js",
+        "OpenAI",
+        "Supabase"
+      ]
+    },
+    {
+      "id": "proj-autocad",
+      "category": "AutoCAD",
+      "name": "AutoCAD Drawing Metadata Automation",
+      "dateRange": "2024/02 – 2024/04",
+      "clientRequest": "Update title blocks across multiple drawings automatically.",
+      "workDone": [
+        "Extracted block attributes",
+        "Batch updated drawings",
+        "Generated consistency reports"
+      ],
+      "tech": [
+        "Python (COM)",
+        "AutoLISP"
+      ]
+    },
+    {
+      "id": "proj-financial-excel",
+      "category": "Excel automation",
+      "name": "Financial Report Automation",
+      "dateRange": "2023/09 – 2023/12",
+      "clientRequest": "Generate monthly reports from raw data.",
+      "workDone": [
+        "Built Excel macros + Python scripts",
+        "Automated data cleaning",
+        "Generated charts & reports"
+      ],
+      "tech": [
+        "Excel VBA",
+        "Python"
+      ]
+    },
+    {
+      "id": "proj-bank-statement",
+      "category": "Excel automation",
+      "name": "Bank Statement Processing Tool",
+      "dateRange": "2023/05 – 2023/08",
+      "clientRequest": "Extract expenses from bank statements.",
+      "workDone": [
+        "Parsed CSV/PDF",
+        "Categorized expenses",
+        "Output to Excel"
+      ],
+      "tech": [
+        "Python",
+        "Pandas"
+      ]
+    }
+  ]
+}
