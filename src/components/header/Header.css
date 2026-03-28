@@ -18,7 +18,8 @@
   color: #868e96;
 }
 
-.header li a {
+.header li a,
+.header li .header-in-page-link {
   display: block;
   padding: 20px 20px;
   /* color: black; */
@@ -26,6 +27,7 @@
 }
 
 .header li a:hover,
+.header li .header-in-page-link:hover,
 .header .menu-btn:hover {
   /* background-color: #A6E1FA; */
 }

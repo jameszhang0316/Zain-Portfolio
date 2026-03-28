@@ -15,6 +15,11 @@ const onMouseOut = (event) => {
   el.style.backgroundColor = "transparent";
 };
 
+const closeMobileMenu = () => {
+  const menuBtn = document.getElementById("menu-btn");
+  if (menuBtn) menuBtn.checked = false;
+};
+
 class Header extends Component {
   render() {
     const theme = this.props.theme;
@@ -36,28 +41,28 @@ class Header extends Component {
             </label>
             <ul className="menu" style={{ backgroundColor: theme.body }}>
               <li>
-                <NavLink
-                  to="/home"
-                  tag={Link}
-                  activeStyle={{ fontWeight: "bold" }}
+                <a
+                  href="#skills"
+                  className="header-in-page-link"
                   style={{ color: theme.text }}
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
+                  onClick={closeMobileMenu}
                 >
                   Skills
-                </NavLink>
+                </a>
               </li>
               <li>
-                <NavLink
-                  to="/projects"
-                  tag={Link}
-                  activeStyle={{ fontWeight: "bold" }}
+                <a
+                  href="#projects"
+                  className="header-in-page-link"
                   style={{ color: theme.text }}
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
+                  onClick={closeMobileMenu}
                 >
                   Projects
-                </NavLink>
+                </a>
               </li>
             </ul>
           </header>
