@@ -8,6 +8,10 @@ export default function PortfolioProjectCard({ project, theme }) {
   const toggleId = `project-toggle-${safeId}`;
   const regionDomId = `project-details-${safeId}`;
 
+  const toggleLabel = open
+    ? "Hide client brief and work done"
+    : "Show client brief and work done";
+
   return (
     <div
       className="portfolio-project-card"
@@ -15,67 +19,64 @@ export default function PortfolioProjectCard({ project, theme }) {
     >
       <Fade bottom duration={2000} distance="40px">
         <div key={project.id} className="portfolio-project-card-inner">
-          <p
-            className="portfolio-project-category"
-            style={{ color: theme.imageHighlight }}
-          >
-            {project.category}
-          </p>
+          <div className="portfolio-project-meta-row">
+            <p
+              className="portfolio-project-dates subTitle"
+              style={{ color: theme.secondaryText }}
+            >
+              {project.dateRange}
+            </p>
+            <p
+              className="portfolio-project-category"
+              style={{ color: theme.imageHighlight }}
+            >
+              {project.category}
+            </p>
+          </div>
           <h3 className="portfolio-project-title" style={{ color: theme.text }}>
             {project.name}
           </h3>
-          <p
-            className="portfolio-project-dates subTitle"
-            style={{ color: theme.secondaryText }}
-          >
-            {project.dateRange}
-          </p>
 
-          <p
-            className="portfolio-project-section-label portfolio-project-tech-heading"
-            style={{ color: theme.text }}
-          >
-            Tech
-          </p>
-          <div className="portfolio-project-tech">
-            {project.tech.map((t) => (
-              <span
-                key={t}
-                style={{
-                  color: theme.text,
-                  backgroundColor: theme.body,
-                }}
-              >
-                {t}
+          <div className="portfolio-project-tech-row">
+            <div className="portfolio-project-tech">
+              {project.tech.map((t) => (
+                <span
+                  key={t}
+                  style={{
+                    color: theme.text,
+                    backgroundColor: theme.body,
+                  }}
+                >
+                  {t}
+                </span>
+              ))}
+            </div>
+            <button
+              type="button"
+              id={toggleId}
+              className="portfolio-project-details-toggle"
+              onClick={() => setOpen((v) => !v)}
+              aria-expanded={open}
+              aria-controls={regionDomId}
+              aria-label={toggleLabel}
+              title={toggleLabel}
+              style={{
+                color: theme.text,
+                borderColor: theme.secondaryText,
+                backgroundColor: theme.body,
+              }}
+            >
+              <span className="portfolio-project-details-toggle-label">
+                Details
               </span>
-            ))}
+              <i
+                className={`fas fa-chevron-down portfolio-project-chevron${
+                  open ? " is-open" : ""
+                }`}
+                aria-hidden
+              />
+            </button>
           </div>
-
-          <button
-            type="button"
-            id={toggleId}
-            className="portfolio-project-details-toggle"
-            onClick={() => setOpen((v) => !v)}
-            aria-expanded={open}
-            aria-controls={regionDomId}
-            style={{
-              color: theme.text,
-              borderColor: theme.secondaryText,
-              backgroundColor: theme.body,
-            }}
-          >
-            <span className="portfolio-project-details-toggle-text">
-              {open
-                ? "Hide client brief & work done"
-                : "Show client brief & work done"}
-            </span>
-            <i
-              className={`fas fa-chevron-down portfolio-project-chevron${
-                open ? " is-open" : ""
-              }`}
-              aria-hidden
-            />
-          </button>
 
           <div
             id={regionDomId}
