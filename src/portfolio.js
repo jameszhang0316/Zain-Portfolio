@@ -9,7 +9,7 @@ const settings = {
 const seo = {
   title: "Zain — Portfolio",
   description:
-    "AI, automation, robotics, and IoT — software, firmware, and hardware projects with measurable outcomes.",
+    "RAG, LLMs, workflow automation (n8n, Make.com), robotics, and IoT — software, firmware, and hardware projects with measurable outcomes.",
   og: {
     title: "Zain — Portfolio",
     type: "website",
@@ -22,8 +22,7 @@ const greeting = {
   title: "Hi, I'm Zain",
   logo_name: "Zain",
   nickname: "",
-  subTitle:
-    "I am a professional AI, Robotics, and IoT Engineer who believes the best solutions are the simplest ones that actually work. I take complex ideas in AI, Automation, Data Science, Robotics, IoT, Computer Vision, and Cloud ML and transform them into real, usable systems that create measurable business impact.",
+  subTitle: "Professional Engineer for AI, Automation, Robotics, and IoT",
   resumeLink: "",
   portfolio_repository: "",
   githubProfile: "",
@@ -36,12 +35,12 @@ const socialMediaLinks = [];
 const skillsIntro = {
   sectionTitle: "Skills & Expertise",
   githubBio:
-    "Generative AI, Robotics, and IoT • RAG, LLMs, Automation, Data Processing, Computer Vision, Algorithms • Firmware, PCB, ROS, Azure, AWS • Python, JavaScript, C#, VBA, C/C++, VHDL, Assembly",
+    "RAG & LLMs • LangChain, Azure OpenAI • n8n, Make.com, workflow automation • Robotics, IoT, Computer Vision • Firmware, PCB, ROS • Azure, AWS • Python, JavaScript, C#, C/C++, VHDL, Assembly",
   paragraphs: [
-    "I am a professional AI, Robotics, and IoT Engineer who believes the best solutions are the simplest ones that actually work. I take complex ideas in Generative AI, Robotics, IoT, Computer Vision, and Cloud ML and transform them into real, usable systems that create measurable business impact.",
-    'In simple terms, I build the smart tech that powers the next generation of applications, whether that means creating sophisticated chatbots and intelligent assistants (like the ones that can answer questions about huge documents) or developing robotics and computer vision systems that can "see" and understand the world around them (like analyzing 3D models or inspecting manufacturing parts).',
-    "Technical specialization: I build robust Generative AI pipelines using platforms like Azure OpenAI, LangChain, and advanced RAG (Retrieval-Augmented Generation) architectures. I also focus on deploying scalable ML and vision models through environments like Azure AI Foundry and Databricks. I also focus on deploying scalable robotics and IoT models through environments like Azure IoT Hub and AWS IoT Core.",
-    "Whether it's managing multimodal data, automating cloud infrastructure, or establishing reliable MLOps workflows — I consistently deliver fast, reliable, and explainable AI solutions.",
+    "I am a professional AI, robotics, and IoT engineer. I believe the best solutions are the simplest ones that actually work — across RAG and LLMs, workflow automation, robotics, IoT, computer vision, and cloud ML.",
+    "In practice: document-grounded assistants and RAG over large corpora; agents and integrations built with n8n, Make.com, and custom APIs; robotics and perception stacks; and embedded work — firmware, sensors, BLE, and reliable field deployment.",
+    "Technical specialization: Generative AI pipelines with Azure OpenAI, LangChain, and RAG architectures; scalable ML and vision on Azure AI Foundry and Databricks; connected products and telemetry with Azure IoT Hub, AWS IoT Core, and edge firmware where software meets hardware.",
+    "From multimodal data and MLOps to CRM-style automation, scheduled workflows, and production IoT — I deliver solutions that are fast, explainable, and maintainable.",
   ],
 };
 
@@ -140,14 +139,24 @@ const skills = {
       fileName: "DesignImg",
       skills: [
         "⚡ Python, PyTorch, Hugging Face, and FastAPI for APIs and model serving",
-        "⚡ Power BI, ETL pipelines, and data integration across Azure and AWS",
-        "⚡ Full-stack and automation experience across web, desktop, and scripting workflows",
+        "⚡ Workflow automation with n8n and Make.com: integrations, webhooks, CRM/email, and scheduled jobs",
+        "⚡ Power BI, ETL pipelines, and data integration across Azure and AWS; full-stack and scripting workflows",
       ],
       softwareSkills: [
         {
           skillName: "Python",
           fontAwesomeClassname: "logos-python",
           style: { color: "#3776AB" },
+        },
+        {
+          skillName: "n8n",
+          fontAwesomeClassname: "simple-icons:n8n",
+          style: { color: "#EA4B71" },
+        },
+        {
+          skillName: "Make",
+          fontAwesomeClassname: "simple-icons:make",
+          style: { color: "#6D00CC" },
         },
         {
           skillName: "FastAPI",
@@ -639,7 +648,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "Selected client work across AI/RAG, agents, automation (n8n, Make.com), Excel, AutoCAD, chatbots, and custom tooling — with clear outcomes and tech stacks.",
+    "Selected work across AI/RAG, LLMs, agents, workflow automation (n8n, Make.com), robotics & IoT, firmware, PCB, Excel, AutoCAD, and custom tooling — with clear outcomes and tech stacks.",
   avatar_image_path: "projects_image.svg",
 };
 

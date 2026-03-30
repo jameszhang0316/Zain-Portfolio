@@ -6,6 +6,15 @@ import ProjectsData from "../../data/portfolio_projects.json";
 import "../../pages/projects/Projects.css";
 import ProjectsImg from "../../pages/projects/ProjectsImg";
 
+function projectTimelineKey(dateRange) {
+  const m = String(dateRange).match(/(\d{4})\/(\d{2})/);
+  return m ? parseInt(m[1], 10) * 100 + parseInt(m[2], 10) : 0;
+}
+
+const projectsSorted = [...ProjectsData.data].sort(
+  (a, b) => projectTimelineKey(b.dateRange) - projectTimelineKey(a.dateRange)
+);
+
 /** Projects block for the single-page layout (no header/footer). */
 export default function ProjectsSection({ theme }) {
   return (
@@ -34,7 +43,7 @@ export default function ProjectsSection({ theme }) {
         </Fade>
       </div>
       <div className="repo-cards-div-main">
-        {ProjectsData.data.map((project) => (
+        {projectsSorted.map((project) => (
           <PortfolioProjectCard
             key={project.id}
             project={project}

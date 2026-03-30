@@ -1,29 +1,10 @@
 {
   "data": [
     {
-      "id": "proj-robinhood",
-      "category": "C# Desktop",
-      "name": "robinhood-options-trading-bot",
-      "dateRange": "2025/11 – 2026/01",
-      "clientRequest": "We need a high-performance trading system that can process signals, execute trades, and notify users in real time.",
-      "workDone": [
-        "Built trading automation system",
-        "Integrated Schwab API",
-        "Designed event-driven architecture",
-        "Implemented messaging via RabbitMQ",
-        "Added Telegram/Discord notifications"
-      ],
-      "tech": [
-        "C#",
-        ".NET",
-        "RabbitMQ"
-      ]
-    },
-    {
       "id": "proj-medical-rag",
       "category": "AI RAG",
       "name": "multi_agent_medical_assistant",
-      "dateRange": "2025/09 – 2025/10",
+      "dateRange": "2025/11 – 2026/01",
       "clientRequest": "We are building a medical assistant tool that can answer complex healthcare-related questions using internal documents and structured reasoning. The system must support multi-step reasoning and ensure accurate, explainable responses.",
       "workDone": [
         "Designed multi-agent architecture for task decomposition",
@@ -42,7 +23,7 @@
       "id": "proj-nrf52840-firmware",
       "category": "Hardware & Firmware",
       "name": "Firmware Development for Custom PCB with NRF52840",
-      "dateRange": "2025/07 – 2025/08",
+      "dateRange": "2025/10 – 2025/11",
       "clientRequest": "We have a custom board built around the Nordic nRF52840 and need production-ready firmware: reliable BLE behavior, low power where possible, and clean integration with our application protocol.",
       "workDone": [
         "Developed and debugged firmware on nRF52840 (SDK per project requirements)",
@@ -61,7 +42,7 @@
       "id": "proj-email-assistant-sales",
       "category": "AI Agents",
       "name": "AI Email Assistant for Sales Team",
-      "dateRange": "2025/05 – 2025/06",
+      "dateRange": "2025/09 – 2025/10",
       "clientRequest": "AI should reply to emails and categorize leads.",
       "workDone": [
         "Built email classification agent",
@@ -79,7 +60,7 @@
       "id": "proj-slack-report-n8n",
       "category": "n8n",
       "name": "automatic-daily-work-report-on-Slack-using-AI",
-      "dateRange": "2025/04 – 2025/05",
+      "dateRange": "2025/08 – 2025/09",
       "clientRequest": "Our team spends time compiling daily reports. We want to automate report generation and delivery to Slack.",
       "workDone": [
         "Built AI-based summarization system",
@@ -95,10 +76,29 @@
       ]
     },
     {
+      "id": "proj-robinhood",
+      "category": "C# Desktop",
+      "name": "robinhood-options-trading-bot",
+      "dateRange": "2025/07 – 2025/08",
+      "clientRequest": "We need a high-performance trading system that can process signals, execute trades, and notify users in real time.",
+      "workDone": [
+        "Built trading automation system",
+        "Integrated Schwab API",
+        "Designed event-driven architecture",
+        "Implemented messaging via RabbitMQ",
+        "Added Telegram/Discord notifications"
+      ],
+      "tech": [
+        "C#",
+        ".NET",
+        "RabbitMQ"
+      ]
+    },
+    {
       "id": "proj-email-n8n",
       "category": "n8n",
       "name": "email-automation-via-n8n",
-      "dateRange": "2025/02 – 2025/03",
+      "dateRange": "2025/06 – 2025/07",
       "clientRequest": "We need to automate email processing, extract key information, and trigger follow-up workflows without manual intervention.",
       "workDone": [
         "Built automation workflows using n8n",
@@ -112,10 +112,29 @@
       ]
     },
     {
+      "id": "proj-push-to-talk",
+      "category": "Hardware & Firmware",
+      "name": "Push to Talk device Over Internet",
+      "dateRange": "2025/05 – 2025/07",
+      "clientRequest": "We need a dedicated push-to-talk device that works over the internet for our team: low latency voice, reliable connection handling, and hardware that fits our enclosure and UX expectations.",
+      "workDone": [
+        "Defined architecture for MCU, audio path, and network stack",
+        "Implemented PTT logic, audio capture/playback, and session management",
+        "Integrated cloud or VoIP signaling for voice over IP",
+        "Prototyped PCBA, iterated firmware, and supported bring-up"
+      ],
+      "tech": [
+        "C/C++",
+        "Embedded",
+        "Audio",
+        "IoT"
+      ]
+    },
+    {
       "id": "proj-simpleflow",
       "category": "Make.com",
       "name": "simpleflow",
-      "dateRange": "2024/11 – 2025/01",
+      "dateRange": "2025/04 – 2025/05",
       "clientRequest": "We need a lightweight automation system to connect multiple services and streamline repetitive workflows.",
       "workDone": [
         "Built automation scenarios",
@@ -132,7 +151,7 @@
       "id": "proj-appointment",
       "category": "Make.com",
       "name": "appointment-scheduler",
-      "dateRange": "2024/09 – 2024/11",
+      "dateRange": "2025/03 – 2025/04",
       "clientRequest": "We want to automate appointment booking, reminders, and scheduling workflows.",
       "workDone": [
         "Built scheduling automation system",
@@ -146,10 +165,27 @@
       ]
     },
     {
+      "id": "proj-chatbot-saas",
+      "category": "AI chatbot",
+      "name": "Customer Support Chatbot for SaaS",
+      "dateRange": "2025/02 – 2025/03",
+      "clientRequest": "Build chatbot to answer user questions.",
+      "workDone": [
+        "Integrated RAG system",
+        "Connected to website",
+        "Added fallback to human support"
+      ],
+      "tech": [
+        "Next.js",
+        "OpenAI",
+        "Supabase"
+      ]
+    },
+    {
       "id": "proj-process-killer",
       "category": "Python",
       "name": "Python-process-killer",
-      "dateRange": "2024/08 – 2024/09",
+      "dateRange": "2025/01 – 2025/02",
       "clientRequest": "We need a tool to monitor and terminate problematic processes automatically.",
       "workDone": [
         "Built process monitoring tool",
@@ -164,7 +200,7 @@
       "id": "proj-bep20-check",
       "category": "Python",
       "name": "bep20-transactions-check",
-      "dateRange": "2024/07 – 2024/08",
+      "dateRange": "2024/11 – 2025/01",
       "clientRequest": "We need to analyze blockchain transactions and detect anomalies.",
       "workDone": [
         "Built transaction parser",
@@ -179,7 +215,7 @@
       "id": "proj-wallet-safety",
       "category": "Python",
       "name": "BEP20-wallet-safety-checker",
-      "dateRange": "2024/06 – 2024/07",
+      "dateRange": "2024/10 – 2024/11",
       "clientRequest": "We want to evaluate wallet safety before transactions.",
       "workDone": [
         "Built wallet analysis system",
@@ -191,94 +227,10 @@
       ]
     },
     {
-      "id": "proj-chatbot-saas",
-      "category": "AI chatbot",
-      "name": "Customer Support Chatbot for SaaS",
-      "dateRange": "2024/05 – 2024/06",
-      "clientRequest": "Build chatbot to answer user questions.",
-      "workDone": [
-        "Integrated RAG system",
-        "Connected to website",
-        "Added fallback to human support"
-      ],
-      "tech": [
-        "Next.js",
-        "OpenAI",
-        "Supabase"
-      ]
-    },
-    {
-      "id": "proj-push-to-talk",
-      "category": "Hardware & Firmware",
-      "name": "Push to Talk device Over Internet",
-      "dateRange": "2024/05 – 2024/08",
-      "clientRequest": "We need a dedicated push-to-talk device that works over the internet for our team: low latency voice, reliable connection handling, and hardware that fits our enclosure and UX expectations.",
-      "workDone": [
-        "Defined architecture for MCU, audio path, and network stack",
-        "Implemented PTT logic, audio capture/playback, and session management",
-        "Integrated cloud or VoIP signaling for voice over IP",
-        "Prototyped PCBA, iterated firmware, and supported bring-up"
-      ],
-      "tech": [
-        "C/C++",
-        "Embedded",
-        "Audio",
-        "IoT"
-      ]
-    },
-    {
-      "id": "proj-autocad",
-      "category": "AutoCAD",
-      "name": "AutoCAD Drawing Metadata Automation",
-      "dateRange": "2024/02 – 2024/04",
-      "clientRequest": "Update title blocks across multiple drawings automatically.",
-      "workDone": [
-        "Extracted block attributes",
-        "Batch updated drawings",
-        "Generated consistency reports"
-      ],
-      "tech": [
-        "Python (COM)",
-        "AutoLISP"
-      ]
-    },
-    {
-      "id": "proj-financial-excel",
-      "category": "Excel automation",
-      "name": "Financial Report Automation",
-      "dateRange": "2023/10 – 2024/01",
-      "clientRequest": "Generate monthly reports from raw data.",
-      "workDone": [
-        "Built Excel macros + Python scripts",
-        "Automated data cleaning",
-        "Generated charts & reports"
-      ],
-      "tech": [
-        "Excel VBA",
-        "Python"
-      ]
-    },
-    {
-      "id": "proj-bank-statement",
-      "category": "Excel automation",
-      "name": "Bank Statement Processing Tool",
-      "dateRange": "2023/07 – 2023/09",
-      "clientRequest": "Extract expenses from bank statements.",
-      "workDone": [
-        "Parsed CSV/PDF",
-        "Categorized expenses",
-        "Output to Excel"
-      ],
-      "tech": [
-        "Python",
-        "Pandas"
-      ]
-    },
-    {
       "id": "proj-hydroponic-control",
       "category": "Hardware & Firmware",
       "name": "Control for hydroponic farm module",
-      "dateRange": "2022/03 – 2023/07",
+      "dateRange": "2024/09 – 2024/11",
       "clientRequest": "Our hydroponic operation needs automated control of pumps, lighting, and nutrient dosing with logging and safe failure modes—we want a maintainable controller we can extend as we add modules.",
       "workDone": [
         "Designed control logic for irrigation, lighting schedules, and environmental limits",
@@ -294,10 +246,42 @@
       ]
     },
     {
+      "id": "proj-autocad",
+      "category": "AutoCAD",
+      "name": "AutoCAD Drawing Metadata Automation",
+      "dateRange": "2024/08 – 2024/09",
+      "clientRequest": "Update title blocks across multiple drawings automatically.",
+      "workDone": [
+        "Extracted block attributes",
+        "Batch updated drawings",
+        "Generated consistency reports"
+      ],
+      "tech": [
+        "Python (COM)",
+        "AutoLISP"
+      ]
+    },
+    {
+      "id": "proj-financial-excel",
+      "category": "Excel automation",
+      "name": "Financial Report Automation",
+      "dateRange": "2024/07 – 2024/08",
+      "clientRequest": "Generate monthly reports from raw data.",
+      "workDone": [
+        "Built Excel macros + Python scripts",
+        "Automated data cleaning",
+        "Generated charts & reports"
+      ],
+      "tech": [
+        "Excel VBA",
+        "Python"
+      ]
+    },
+    {
       "id": "proj-pcb-modify",
       "category": "Hardware",
       "name": "Electronic Engineer to modify PCB Design",
-      "dateRange": "2022/02 – 2022/05",
+      "dateRange": "2024/06 – 2024/08",
       "clientRequest": "We have an existing PCB that needs design changes: component updates, routing fixes, and manufacturing-ready outputs without breaking mechanical fit.",
       "workDone": [
         "Reviewed schematics and board files against new requirements",
@@ -312,10 +296,26 @@
       ]
     },
     {
+      "id": "proj-bank-statement",
+      "category": "Excel automation",
+      "name": "Bank Statement Processing Tool",
+      "dateRange": "2024/05 – 2024/06",
+      "clientRequest": "Extract expenses from bank statements.",
+      "workDone": [
+        "Parsed CSV/PDF",
+        "Categorized expenses",
+        "Output to Excel"
+      ],
+      "tech": [
+        "Python",
+        "Pandas"
+      ]
+    },
+    {
       "id": "proj-sensors-board",
       "category": "Hardware",
       "name": "Design of a Sensors Board",
-      "dateRange": "2020/12 – 2021/06",
+      "dateRange": "2024/04 – 2024/06",
       "clientRequest": "We need a custom sensor interface board: multiple channels, conditioning, protection, and a clean interface to our main MCU or bus.",
       "workDone": [
         "Captured requirements (ranges, accuracy, connectors, power budget)",
@@ -333,7 +333,7 @@
       "id": "proj-iot-ble-gateway",
       "category": "IoT & Firmware",
       "name": "Bluetooth Low Energy & Gateway development",
-      "dateRange": "2020/04 – 2021/05",
+      "dateRange": "2024/03 – 2024/05",
       "clientRequest": "We need an IoT developer to build BLE peripherals and a gateway that aggregates data to our cloud or on-prem backend with stable pairing and security basics.",
       "workDone": [
         "Implemented BLE GATT services and device firmware",
@@ -353,7 +353,7 @@
       "id": "proj-esp-smart-config",
       "category": "Hardware & Firmware",
       "name": "ESP-smart configuration testing and prototyping",
-      "dateRange": "2019/10 – 2020/04",
+      "dateRange": "2024/02 – 2024/04",
       "clientRequest": "We are shipping ESP-based devices and need robust Wi-Fi provisioning (smart config / app-assisted setup), thorough testing, and prototype iterations before production.",
       "workDone": [
         "Prototyped smart-config and fallback provisioning flows",
@@ -372,7 +372,7 @@
       "id": "proj-nextion-ct-power",
       "category": "Embedded UI",
       "name": "GUI design and Interface for CT Power boards using Nextion",
-      "dateRange": "2019/04 – 2020/04",
+      "dateRange": "2024/01 – 2024/03",
       "clientRequest": "We need a clear operator interface on Nextion displays for our CT power hardware: screens, alarms, setpoints, and serial protocol alignment with existing firmware.",
       "workDone": [
         "Designed Nextion HMI pages and navigation for operational workflows",
@@ -391,7 +391,7 @@
       "id": "proj-battery-box",
       "category": "Hardware",
       "name": "Battery Requirements for Box project",
-      "dateRange": "2019/03 – 2019/09",
+      "dateRange": "2023/10 – 2023/12",
       "clientRequest": "We are defining a battery-powered enclosure and need help sizing chemistry, cell configuration, protection, charging, and compliance with our load profile and temperature range.",
       "workDone": [
         "Modeled load profile and estimated runtime targets",
@@ -406,28 +406,10 @@
       ]
     },
     {
-      "id": "proj-fsr-motors",
-      "category": "Hardware & Firmware",
-      "name": "Force Sensitive Resistor Activated DC Motors",
-      "dateRange": "2018/07 – 2018/08",
-      "clientRequest": "We need a compact circuit and firmware where force on an FSR reliably triggers and controls DC motors with debouncing, limits, and safe current behavior.",
-      "workDone": [
-        "Designed signal conditioning for FSR and threshold/hysteresis logic",
-        "Implemented motor drive with PWM or H-bridge as required",
-        "Prototyped on breadboard/PCB and tuned responsiveness",
-        "Delivered demo firmware and wiring diagram"
-      ],
-      "tech": [
-        "Arduino",
-        "Analog sensing",
-        "Motor control"
-      ]
-    },
-    {
       "id": "proj-arduino-website",
       "category": "Full-stack Embedded",
       "name": "Arduino + Website Project",
-      "dateRange": "2018/01 – 2019/09",
+      "dateRange": "2023/07 – 2023/10",
       "clientRequest": "We want Arduino-based hardware connected to a simple web dashboard to monitor status, change settings remotely, and visualize events over time.",
       "workDone": [
         "Developed Arduino firmware for sensors/actuators and stable serial/IP bridge",
@@ -441,6 +423,24 @@
         "Web",
         "REST",
         "IoT"
+      ]
+    },
+    {
+      "id": "proj-fsr-motors",
+      "category": "Hardware & Firmware",
+      "name": "Force Sensitive Resistor Activated DC Motors",
+      "dateRange": "2023/04 – 2023/06",
+      "clientRequest": "We need a compact circuit and firmware where force on an FSR reliably triggers and controls DC motors with debouncing, limits, and safe current behavior.",
+      "workDone": [
+        "Designed signal conditioning for FSR and threshold/hysteresis logic",
+        "Implemented motor drive with PWM or H-bridge as required",
+        "Prototyped on breadboard/PCB and tuned responsiveness",
+        "Delivered demo firmware and wiring diagram"
+      ],
+      "tech": [
+        "Arduino",
+        "Analog sensing",
+        "Motor control"
       ]
     }
   ]
