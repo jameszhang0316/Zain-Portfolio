@@ -10,6 +10,24 @@
   text-align: center;
 }
 
+.skills-intro-block {
+  margin: 0 5% 2.5rem;
+  max-width: 920px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.skills-intro-github {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.skills-intro-p {
+  margin-bottom: 0.85rem;
+  line-height: 1.55;
+}
+
 .skills-text {
   font-size: 20px;
 }

@@ -8,7 +8,8 @@ const settings = {
 //SEO Related settings
 const seo = {
   title: "Zain — Portfolio",
-  description: "Portfolio showcasing software skills and selected projects.",
+  description:
+    "AI, automation, robotics, and IoT — software, firmware, and hardware projects with measurable outcomes.",
   og: {
     title: "Zain — Portfolio",
     type: "website",
@@ -22,7 +23,7 @@ const greeting = {
   logo_name: "Zain",
   nickname: "",
   subTitle:
-    "I am a professional AI Engineer who believes the best solutions are the simplest ones that actually work. I take complex ideas in AI, Automation, Data Science, Computer Vision, and Cloud ML and transform them into real, usable systems that create measurable business impact.",
+    "I am a professional AI, Robotics, and IoT Engineer who believes the best solutions are the simplest ones that actually work. I take complex ideas in AI, Automation, Data Science, Robotics, IoT, Computer Vision, and Cloud ML and transform them into real, usable systems that create measurable business impact.",
   resumeLink: "",
   portfolio_repository: "",
   githubProfile: "",
@@ -35,11 +36,11 @@ const socialMediaLinks = [];
 const skillsIntro = {
   sectionTitle: "Skills & Expertise",
   githubBio:
-    "Full-Stack AI Developer • AI & Automation • Data Processing • Algorithms • Web, Desktop & Firmware • Python, JavaScript, PHP, C#, VBA, Ruby, C/C++",
+    "Generative AI, Robotics, and IoT • RAG, LLMs, Automation, Data Processing, Computer Vision, Algorithms • Firmware, PCB, ROS, Azure, AWS • Python, JavaScript, C#, VBA, C/C++, VHDL, Assembly",
   paragraphs: [
-    "I am a professional AI Engineer who believes the best solutions are the simplest ones that actually work. I take complex ideas in Generative AI, Computer Vision, and Cloud ML and transform them into real, usable systems that create measurable business impact.",
-    'In simple terms, I build the smart tech that powers the next generation of applications, whether that means creating sophisticated chatbots and intelligent assistants (like the ones that can answer questions about huge documents) or developing computer vision systems that can "see" and understand the world around them (like analyzing 3D models or inspecting manufacturing parts).',
-    "Technical specialization: I build robust Generative AI pipelines using platforms like Azure OpenAI, LangChain, and advanced RAG (Retrieval-Augmented Generation) architectures. I also focus on deploying scalable ML and vision models through environments like Azure AI Foundry and Databricks.",
+    "I am a professional AI, Robotics, and IoT Engineer who believes the best solutions are the simplest ones that actually work. I take complex ideas in Generative AI, Robotics, IoT, Computer Vision, and Cloud ML and transform them into real, usable systems that create measurable business impact.",
+    'In simple terms, I build the smart tech that powers the next generation of applications, whether that means creating sophisticated chatbots and intelligent assistants (like the ones that can answer questions about huge documents) or developing robotics and computer vision systems that can "see" and understand the world around them (like analyzing 3D models or inspecting manufacturing parts).',
+    "Technical specialization: I build robust Generative AI pipelines using platforms like Azure OpenAI, LangChain, and advanced RAG (Retrieval-Augmented Generation) architectures. I also focus on deploying scalable ML and vision models through environments like Azure AI Foundry and Databricks. I also focus on deploying scalable robotics and IoT models through environments like Azure IoT Hub and AWS IoT Core.",
     "Whether it's managing multimodal data, automating cloud infrastructure, or establishing reliable MLOps workflows — I consistently deliver fast, reliable, and explainable AI solutions.",
   ],
 };
@@ -109,7 +110,7 @@ const skills = {
       ],
     },
     {
-      title: "Computer Vision & ML",
+      title: "Computer Vision & Perception",
       fileName: "FullStackImg",
       skills: [
         "⚡ 3D point clouds, time-series analysis, and vision pipelines for real-world perception",
@@ -135,7 +136,7 @@ const skills = {
       ],
     },
     {
-      title: "Programming, Data & Infrastructure",
+      title: "Software Development & Data Infrastructure",
       fileName: "DesignImg",
       skills: [
         "⚡ Python, PyTorch, Hugging Face, and FastAPI for APIs and model serving",
@@ -172,6 +173,103 @@ const skills = {
           skillName: "AWS",
           fontAwesomeClassname: "simple-icons:amazonaws",
           style: { color: "#FF9900" },
+        },
+      ],
+    },
+    {
+      title: "Embedded Systems, Robotics & PCB",
+      fileName: "CloudInfraImg",
+      skills: [
+        "⚡ Embedded firmware, bring-up, and hardware integration",
+        "⚡ PCB design, revision, and manufacturing-ready outputs",
+        "⚡ ROS and robotics integration for perception and control",
+        "⚡ Machine learning on edge and embedded targets where relevant",
+        "⚡ Computer vision pipelines tied to real sensors and devices",
+        "⚡ Azure and AWS for connected products, telemetry, and ML services",
+      ],
+      softwareSkills: [
+        {
+          skillName: "ROS",
+          fontAwesomeClassname: "simple-icons:ros",
+          style: { color: "#22314E" },
+        },
+        {
+          skillName: "PyTorch",
+          fontAwesomeClassname: "logos-pytorch",
+          style: { backgroundColor: "transparent" },
+        },
+        {
+          skillName: "OpenCV",
+          fontAwesomeClassname: "simple-icons:opencv",
+          style: { color: "#5C3EE8" },
+        },
+        {
+          skillName: "Azure",
+          fontAwesomeClassname: "simple-icons:microsoftazure",
+          style: { color: "#0089D6" },
+        },
+        {
+          skillName: "AWS",
+          fontAwesomeClassname: "simple-icons:amazonaws",
+          style: { color: "#FF9900" },
+        },
+        {
+          skillName: "PCB",
+          fontAwesomeClassname: "mdi:chip",
+          style: { color: "#546E7A" },
+        },
+      ],
+    },
+    {
+      title: "Hardware Platforms & Controllers",
+      fileName: "DesignImg",
+      skills: [
+        "⚡ STM32 and STMicroelectronics ecosystem",
+        "⚡ ARM Cortex-M and toolchain workflows",
+        "⚡ Xilinx Spartan FPGA boards for prototyping and glue logic",
+        "⚡ Particle Photon and similar connectivity modules",
+        "⚡ Arduino ecosystem for rapid firmware iteration",
+        "⚡ TI LaunchPad and MSP430-class bring-up",
+        "⚡ Raspberry Pi for edge compute and integration",
+        "⚡ PLC and SCADA for industrial automation interfaces",
+        "⚡ PIC and AVR-class 8-bit controllers",
+        "⚡ IoT platforms and connectivity stacks",
+      ],
+      softwareSkills: [
+        {
+          skillName: "STMicroelectronics",
+          fontAwesomeClassname: "simple-icons:stmicroelectronics",
+          style: { color: "#03234B" },
+        },
+        {
+          skillName: "ARM",
+          fontAwesomeClassname: "simple-icons:arm",
+          style: { color: "#0091BD" },
+        },
+        {
+          skillName: "Xilinx",
+          fontAwesomeClassname: "simple-icons:xilinx",
+          style: { color: "#E01F27" },
+        },
+        {
+          skillName: "Arduino",
+          fontAwesomeClassname: "simple-icons:arduino",
+          style: { color: "#00878F" },
+        },
+        {
+          skillName: "Raspberry Pi",
+          fontAwesomeClassname: "logos:raspberry-pi",
+          style: { color: "#C51A4A" },
+        },
+        {
+          skillName: "Texas Instruments",
+          fontAwesomeClassname: "simple-icons:texasinstruments",
+          style: { color: "#CC0000" },
+        },
+        {
+          skillName: "IoT",
+          fontAwesomeClassname: "mdi:router-wireless",
+          style: { color: "#607D8B" },
         },
       ],
     },

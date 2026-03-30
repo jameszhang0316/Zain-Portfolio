@@ -23,7 +23,7 @@
       "id": "proj-medical-rag",
       "category": "AI RAG",
       "name": "multi_agent_medical_assistant",
-      "dateRange": "2025/08 – 2025/10",
+      "dateRange": "2025/09 – 2025/10",
       "clientRequest": "We are building a medical assistant tool that can answer complex healthcare-related questions using internal documents and structured reasoning. The system must support multi-step reasoning and ensure accurate, explainable responses.",
       "workDone": [
         "Designed multi-agent architecture for task decomposition",
@@ -39,10 +39,29 @@
       ]
     },
     {
+      "id": "proj-nrf52840-firmware",
+      "category": "Hardware & Firmware",
+      "name": "Firmware Development for Custom PCB with NRF52840",
+      "dateRange": "2025/07 – 2025/08",
+      "clientRequest": "We have a custom board built around the Nordic nRF52840 and need production-ready firmware: reliable BLE behavior, low power where possible, and clean integration with our application protocol.",
+      "workDone": [
+        "Developed and debugged firmware on nRF52840 (SDK per project requirements)",
+        "Implemented BLE services, bonding, and OTA considerations",
+        "Validated power consumption and RF performance",
+        "Documented build, flash, and test procedures"
+      ],
+      "tech": [
+        "C",
+        "nRF52840",
+        "BLE",
+        "Embedded"
+      ]
+    },
+    {
       "id": "proj-email-assistant-sales",
       "category": "AI Agents",
       "name": "AI Email Assistant for Sales Team",
-      "dateRange": "2025/06 – 2025/07",
+      "dateRange": "2025/05 – 2025/06",
       "clientRequest": "AI should reply to emails and categorize leads.",
       "workDone": [
         "Built email classification agent",
@@ -79,7 +98,7 @@
       "id": "proj-email-n8n",
       "category": "n8n",
       "name": "email-automation-via-n8n",
-      "dateRange": "2025/03 – 2025/04",
+      "dateRange": "2025/02 – 2025/03",
       "clientRequest": "We need to automate email processing, extract key information, and trigger follow-up workflows without manual intervention.",
       "workDone": [
         "Built automation workflows using n8n",
@@ -113,7 +132,7 @@
       "id": "proj-appointment",
       "category": "Make.com",
       "name": "appointment-scheduler",
-      "dateRange": "2024/08 – 2024/10",
+      "dateRange": "2024/09 – 2024/11",
       "clientRequest": "We want to automate appointment booking, reminders, and scheduling workflows.",
       "workDone": [
         "Built scheduling automation system",
@@ -175,7 +194,7 @@
       "id": "proj-chatbot-saas",
       "category": "AI chatbot",
       "name": "Customer Support Chatbot for SaaS",
-      "dateRange": "2024/06 – 2024/07",
+      "dateRange": "2024/05 – 2024/06",
       "clientRequest": "Build chatbot to answer user questions.",
       "workDone": [
         "Integrated RAG system",
@@ -186,6 +205,25 @@
         "Next.js",
         "OpenAI",
         "Supabase"
+      ]
+    },
+    {
+      "id": "proj-push-to-talk",
+      "category": "Hardware & Firmware",
+      "name": "Push to Talk device Over Internet",
+      "dateRange": "2024/05 – 2024/08",
+      "clientRequest": "We need a dedicated push-to-talk device that works over the internet for our team: low latency voice, reliable connection handling, and hardware that fits our enclosure and UX expectations.",
+      "workDone": [
+        "Defined architecture for MCU, audio path, and network stack",
+        "Implemented PTT logic, audio capture/playback, and session management",
+        "Integrated cloud or VoIP signaling for voice over IP",
+        "Prototyped PCBA, iterated firmware, and supported bring-up"
+      ],
+      "tech": [
+        "C/C++",
+        "Embedded",
+        "Audio",
+        "IoT"
       ]
     },
     {
@@ -208,7 +246,7 @@
       "id": "proj-financial-excel",
       "category": "Excel automation",
       "name": "Financial Report Automation",
-      "dateRange": "2023/09 – 2023/12",
+      "dateRange": "2023/10 – 2024/01",
       "clientRequest": "Generate monthly reports from raw data.",
       "workDone": [
         "Built Excel macros + Python scripts",
@@ -224,7 +262,7 @@
       "id": "proj-bank-statement",
       "category": "Excel automation",
       "name": "Bank Statement Processing Tool",
-      "dateRange": "2023/05 – 2023/08",
+      "dateRange": "2023/07 – 2023/09",
       "clientRequest": "Extract expenses from bank statements.",
       "workDone": [
         "Parsed CSV/PDF",
@@ -234,6 +272,175 @@
       "tech": [
         "Python",
         "Pandas"
+      ]
+    },
+    {
+      "id": "proj-hydroponic-control",
+      "category": "Hardware & Firmware",
+      "name": "Control for hydroponic farm module",
+      "dateRange": "2022/03 – 2023/07",
+      "clientRequest": "Our hydroponic operation needs automated control of pumps, lighting, and nutrient dosing with logging and safe failure modes—we want a maintainable controller we can extend as we add modules.",
+      "workDone": [
+        "Designed control logic for irrigation, lighting schedules, and environmental limits",
+        "Implemented firmware for sensors/actuators and interlocks",
+        "Added data logging and optional remote monitoring hooks",
+        "Supported calibration, alarms, and long-run reliability testing"
+      ],
+      "tech": [
+        "Embedded C",
+        "Arduino/ESP",
+        "Sensors",
+        "IoT"
+      ]
+    },
+    {
+      "id": "proj-pcb-modify",
+      "category": "Hardware",
+      "name": "Electronic Engineer to modify PCB Design",
+      "dateRange": "2022/02 – 2022/05",
+      "clientRequest": "We have an existing PCB that needs design changes: component updates, routing fixes, and manufacturing-ready outputs without breaking mechanical fit.",
+      "workDone": [
+        "Reviewed schematics and board files against new requirements",
+        "Applied netlist and layout changes (DRC-clean)",
+        "Generated Gerbers, BOM updates, and assembly notes",
+        "Coordinated design-for-test and revision control"
+      ],
+      "tech": [
+        "KiCad / Altium",
+        "PCB",
+        "DFM"
+      ]
+    },
+    {
+      "id": "proj-sensors-board",
+      "category": "Hardware",
+      "name": "Design of a Sensors Board",
+      "dateRange": "2020/12 – 2021/06",
+      "clientRequest": "We need a custom sensor interface board: multiple channels, conditioning, protection, and a clean interface to our main MCU or bus.",
+      "workDone": [
+        "Captured requirements (ranges, accuracy, connectors, power budget)",
+        "Completed schematic and PCB layout with grounding and EMC awareness",
+        "Prototyped, validated analog front-end and digital interfaces",
+        "Delivered documentation for integration and test"
+      ],
+      "tech": [
+        "Analog design",
+        "PCB",
+        "Sensors"
+      ]
+    },
+    {
+      "id": "proj-iot-ble-gateway",
+      "category": "IoT & Firmware",
+      "name": "Bluetooth Low Energy & Gateway development",
+      "dateRange": "2020/04 – 2021/05",
+      "clientRequest": "We need an IoT developer to build BLE peripherals and a gateway that aggregates data to our cloud or on-prem backend with stable pairing and security basics.",
+      "workDone": [
+        "Implemented BLE GATT services and device firmware",
+        "Built or configured gateway for protocol translation",
+        "Integrated MQTT/HTTP uplink and device provisioning flow",
+        "Tested range, throughput, and reconnection behavior"
+      ],
+      "tech": [
+        "BLE",
+        "Embedded",
+        "Python",
+        "Gateway",
+        "IoT"
+      ]
+    },
+    {
+      "id": "proj-esp-smart-config",
+      "category": "Hardware & Firmware",
+      "name": "ESP-smart configuration testing and prototyping",
+      "dateRange": "2019/10 – 2020/04",
+      "clientRequest": "We are shipping ESP-based devices and need robust Wi-Fi provisioning (smart config / app-assisted setup), thorough testing, and prototype iterations before production.",
+      "workDone": [
+        "Prototyped smart-config and fallback provisioning flows",
+        "Automated test cases across routers and failure modes",
+        "Tuned firmware for reliability and user feedback (LED/UI)",
+        "Documented factory and field setup procedures"
+      ],
+      "tech": [
+        "ESP8266/ESP32",
+        "C",
+        "Wi-Fi",
+        "QA"
+      ]
+    },
+    {
+      "id": "proj-nextion-ct-power",
+      "category": "Embedded UI",
+      "name": "GUI design and Interface for CT Power boards using Nextion",
+      "dateRange": "2019/04 – 2020/04",
+      "clientRequest": "We need a clear operator interface on Nextion displays for our CT power hardware: screens, alarms, setpoints, and serial protocol alignment with existing firmware.",
+      "workDone": [
+        "Designed Nextion HMI pages and navigation for operational workflows",
+        "Defined UART framing and command set with firmware team",
+        "Implemented validation on hardware and iteration from user feedback",
+        "Delivered project files and integration guide"
+      ],
+      "tech": [
+        "Nextion",
+        "HMI",
+        "UART",
+        "Embedded"
+      ]
+    },
+    {
+      "id": "proj-battery-box",
+      "category": "Hardware",
+      "name": "Battery Requirements for Box project",
+      "dateRange": "2019/03 – 2019/09",
+      "clientRequest": "We are defining a battery-powered enclosure and need help sizing chemistry, cell configuration, protection, charging, and compliance with our load profile and temperature range.",
+      "workDone": [
+        "Modeled load profile and estimated runtime targets",
+        "Selected BMS/charging approach and connector strategy",
+        "Documented electrical limits, derating, and safety considerations",
+        "Supported mechanical integration and vendor DFM questions"
+      ],
+      "tech": [
+        "Power electronics",
+        "Batteries",
+        "Requirements"
+      ]
+    },
+    {
+      "id": "proj-fsr-motors",
+      "category": "Hardware & Firmware",
+      "name": "Force Sensitive Resistor Activated DC Motors",
+      "dateRange": "2018/07 – 2018/08",
+      "clientRequest": "We need a compact circuit and firmware where force on an FSR reliably triggers and controls DC motors with debouncing, limits, and safe current behavior.",
+      "workDone": [
+        "Designed signal conditioning for FSR and threshold/hysteresis logic",
+        "Implemented motor drive with PWM or H-bridge as required",
+        "Prototyped on breadboard/PCB and tuned responsiveness",
+        "Delivered demo firmware and wiring diagram"
+      ],
+      "tech": [
+        "Arduino",
+        "Analog sensing",
+        "Motor control"
+      ]
+    },
+    {
+      "id": "proj-arduino-website",
+      "category": "Full-stack Embedded",
+      "name": "Arduino + Website Project",
+      "dateRange": "2018/01 – 2019/09",
+      "clientRequest": "We want Arduino-based hardware connected to a simple web dashboard to monitor status, change settings remotely, and visualize events over time.",
+      "workDone": [
+        "Developed Arduino firmware for sensors/actuators and stable serial/IP bridge",
+        "Built backend API and lightweight web UI for control and charts",
+        "Implemented authentication basics and deployment path",
+        "Supported end-to-end testing and incremental feature rollout"
+      ],
+      "tech": [
+        "Arduino",
+        "JavaScript",
+        "Web",
+        "REST",
+        "IoT"
       ]
     }
   ]
