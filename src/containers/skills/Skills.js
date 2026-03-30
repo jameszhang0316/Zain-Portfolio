@@ -17,12 +17,43 @@ export default function Skills(props) {
       </div>
       <div className="skills-intro-block">
         <Fade bottom duration={2000} distance="20px">
-          <p
-            className="skills-intro-github subTitle"
-            style={{ color: theme.secondaryText }}
+          <div
+            className="skills-intro-bio-cards"
+            style={{ borderColor: theme.secondaryText + "40" }}
           >
-            {skillsIntro.githubBio}
-          </p>
+            {(skillsIntro.githubBioCards || []).map((card, idx) => (
+              <div
+                key={idx}
+                className="skills-intro-bio-card"
+                style={{
+                  backgroundColor: theme.headerColor,
+                  borderColor: "rgba(0, 0, 0, 0.08)",
+                }}
+              >
+                <div
+                  className="skills-intro-bio-card-label"
+                  style={{ color: theme.text }}
+                >
+                  {card.label}
+                </div>
+                <div className="skills-intro-bio-pills">
+                  {card.items.map((item) => (
+                    <span
+                      key={item}
+                      className="skills-intro-bio-pill"
+                      style={{
+                        color: theme.text,
+                        backgroundColor: theme.body,
+                        borderColor: "rgba(0, 0, 0, 0.1)",
+                      }}
+                    >
+                      {item}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
           {skillsIntro.paragraphs.map((p, i) => (
             <p
               key={i}
